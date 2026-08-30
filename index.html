@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hasanat House — Support</title>
+<meta name="description" content="Help and contact for the Hasanat House app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --page:#F7F7F9;
+    --card:#FFFFFF;
+    --ink:#2E3D35;
+    --body:#4A5A52;
+    --sec:#8A948F;
+    --line:#E8E8EC;
+    --gold:#EEB31F;
+    --brown:#452000;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--page);
+    color:var(--body);
+    font-family:'Figtree',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-size:16.5px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:56px 22px 80px}
+
+  header{text-align:center;margin-bottom:44px}
+  .mark{
+    width:82px;height:82px;border-radius:20px;
+    background:var(--brown);
+    display:block;
+    margin:0 auto 20px;
+    box-shadow:0 6px 20px rgba(69,32,0,.18);
+    object-fit:cover;
+  }
+  h1{
+    font-family:'Quicksand',sans-serif;font-weight:700;
+    font-size:34px;line-height:1.2;color:var(--ink);
+    margin:0 0 8px;letter-spacing:-.3px;
+  }
+  .tag{color:var(--sec);font-size:16px;margin:0}
+
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:26px 26px 6px;
+    margin-bottom:20px;
+  }
+  .card.tight{padding-bottom:26px}
+  h2{
+    font-family:'Quicksand',sans-serif;font-weight:700;
+    font-size:19px;color:var(--ink);margin:0 0 14px;
+  }
+  p{margin:0 0 18px}
+  a{color:#2F7FD4;text-decoration:none;font-weight:600}
+  a:hover{text-decoration:underline}
+
+  .contact{
+    display:flex;align-items:center;gap:14px;
+    padding:16px 18px;border-radius:14px;
+    background:#FDF6E3;border:1px solid #F3E3B8;
+    margin-bottom:18px;
+  }
+  .contact .dot{
+    width:38px;height:38px;border-radius:11px;flex:none;
+    background:var(--gold);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .contact .dot svg{width:20px;height:20px;display:block}
+  .contact .who{font-size:13.5px;color:#8A7233;margin:0 0 1px;font-weight:600}
+  .contact .addr{font-size:17px;font-weight:700;color:var(--brown);margin:0;word-break:break-all}
+  .contact .addr a{color:var(--brown)}
+
+  details{
+    border-top:1px solid var(--line);
+    padding:2px 0;
+  }
+  details:first-of-type{border-top:none}
+  summary{
+    cursor:pointer;list-style:none;
+    padding:15px 26px 15px 0;
+    font-weight:600;color:var(--ink);
+    position:relative;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary::after{
+    content:'';position:absolute;right:4px;top:22px;
+    width:8px;height:8px;
+    border-right:2px solid var(--sec);border-bottom:2px solid var(--sec);
+    transform:rotate(45deg);transition:transform .2s ease;
+  }
+  details[open] summary::after{transform:rotate(-135deg);top:25px}
+  details p{margin:0 0 18px;font-size:15.5px}
+
+  footer{
+    text-align:center;color:var(--sec);font-size:14px;
+    margin-top:38px;line-height:1.8;
+  }
+  footer a{color:var(--sec);font-weight:500}
+
+  @media (max-width:520px){
+    .wrap{padding:40px 18px 60px}
+    h1{font-size:28px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img class="mark" src="icon.png" alt="Hasanat House app icon" width="82" height="82">
+    <h1>Hasanat House</h1>
+    <p class="tag">Send good ahead for your permanent life</p>
+  </header>
+
+  <div class="card tight">
+    <h2>Get in touch</h2>
+    <div class="contact">
+      <div class="dot" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#452000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/>
+          <path d="M3 7l9 6 9-6"/>
+        </svg>
+      </div>
+      <div>
+        <p class="who">Support</p>
+        <p class="addr"><a href="mailto:hello@hasanathouse.com">hello@hasanathouse.com</a></p>
+      </div>
+    </div>
+    <p>Questions, bug reports, account help, or anything else about the app — write
+    to us and we'll reply, usually within two working days. If you're reporting a
+    problem, telling us your username and what you were doing at the time helps a lot.</p>
+  </div>
+
+  <div class="card">
+    <h2>Common questions</h2>
+
+    <details>
+      <summary>I forgot my password</summary>
+      <p>Tap <strong>Forgot password</strong> on the sign-in screen and enter your email.
+      A reset link is sent to that address. Check your spam folder if it hasn't
+      arrived after a few minutes.</p>
+    </details>
+
+    <details>
+      <summary>I'm not getting reminders</summary>
+      <p>Open your phone's Settings, find Hasanat House, and make sure Notifications
+      are allowed. Then check that the reminder is switched on inside the project
+      itself. Reminders won't arrive if the project has already ended.</p>
+    </details>
+
+    <details>
+      <summary>How do I delete my account?</summary>
+      <p>Open your profile, scroll to the bottom, and tap <strong>Delete account</strong>.
+      This removes your account along with your projects, journal entries, and
+      messages. It's permanent and can't be undone.</p>
+    </details>
+
+    <details>
+      <summary>Someone is behaving badly</summary>
+      <p>Tap the menu on any post, comment, or message to <strong>report</strong> it or the
+      account behind it. Blocked accounts are managed under <strong>Profile &rarr;
+      Blocked accounts</strong>. Reports are reviewed and acted on. If it's urgent,
+      email us directly.</p>
+    </details>
+
+    <details>
+      <summary>Can I change my email or username?</summary>
+      <p>Yes. Both live in your profile, along with <strong>Change password</strong>.
+      Changing your email sends a verification code to the new address, and the
+      change only takes effect once you've entered it.</p>
+    </details>
+
+    <details>
+      <summary>What happens to my data?</summary>
+      <p>Your projects and journal entries are yours. We don't sell data and there are
+      no ads or third-party trackers in the app. See the privacy policy below for the
+      full detail.</p>
+    </details>
+  </div>
+
+  <footer>
+    <a href="https://rafahaths.notion.site/HasanatHouse-Privacy-Policy-37282cfd592480709f93c9b67d44e862">Privacy Policy</a><br>
+    © 2026 Hasanat House
+  </footer>
+
+</div>
+</body>
+</html>
